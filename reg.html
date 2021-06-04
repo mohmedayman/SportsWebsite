@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="reg.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Sports</title>
+    <style></style>
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="reg.html" class="active">register</a></li>
+                    <li><a href="pri.html">pricing</a></li>
+                    <li><a href="ser.html">Services</a></li>
+                    <li><a href="co.html">Contact</a></li>
+                    
+                </ul>
+                <div class="form">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+<!-- start register -->
+<div class="contact">
+    <div class="container">
+        <div class="content">
+            <form action="" method="POST">
+                <label for="n" class="info">Name</label>
+               <input class="main-input" type="text" name="name" id="n" placeholder="Your Name" required>
+               <label for="p" class="info">password</label>
+               <input class="main-input" type="password" name="password" id="p" placeholder="Your password" maxlength="8" minlength="8" required>
+               <label for="e" class="info">E-mail</label>
+               <input class="main-input" type="email" name="mail" id="e" placeholder="Your Email" required>
+               <label for="ph" class="info">phone Number</label>
+               <input class="main-input" type="text"  name="phone" id="ph" placeholder="+00 123.456.789" required>
+               <label for="a" class="info">Address</label>
+               <input class="main-input" type="text" name="adress" id="a" placeholder="Your Address" required>
+               <label for="g" class="info">Gender</label>
+               <select class="main-input" name="Gender" id="g">
+                   <option value="Male">Male</option>
+                   <option value="Female">Female</option>
+               </select>
+                <input type="submit" value="register now">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- end register -->
+</body>
+</html>
