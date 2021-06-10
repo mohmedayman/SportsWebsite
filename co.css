@@ -10,6 +10,8 @@ html{
 body{
     font-family:"open sans",sans-serif ;
     /* background-color: cyan; */
+    background-image: url('images/test2.jpeg');
+    /* background-size: contain; */
 }
 ul{
     list-style: none;
@@ -49,7 +51,7 @@ ul{
     width: 100%;
     left: 0;
     z-index: 4;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
   header .container{
     display: flex;
@@ -150,17 +152,21 @@ ul{
    /* start contact */
    .contact{
     padding: 80px 0 0 0;
+    /* color: white; */
   }
   .contact .main-heading h2{
     margin: 10px 0;
+    color: aliceblue;
+    
   }
   .contact .main-heading p{
     margin: 30px 0;
-    color: blueviolet;
+    color: var(--maincolor);
   }
   .contact .content{
     display: flex;
     justify-content: space-between;
+    color: white;
   }
   .contact .content form{
     flex-basis: 70%;
@@ -201,14 +207,14 @@ ul{
   }
   .contact .content .info .phone{
     display: block;
-    color: #777;
+    /* color: #777; */
     margin-bottom: 10px;
   }
   .contact .content .info h4:nth-of-type(2){
     margin-top: 90px;
   }
   .contact .content .info address{
-    color: #777;
+    /* color: #777; */
     line-height: 1.8;
   }
   @media (max-width:767px){

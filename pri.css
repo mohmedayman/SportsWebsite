@@ -10,6 +10,8 @@ html{
 body{
     font-family:"open sans",sans-serif ;
     /* background-color: cyan; */
+    background-image: url('images/test3.jpeg');
+    background-size: cover;
 }
 ul{
     list-style: none;
@@ -49,7 +51,7 @@ ul{
     width: 100%;
     left: 0;
     z-index: 4;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
   header .container{
     display: flex;
@@ -149,14 +151,15 @@ ul{
   /* end header */
   /* start pricing */
   .pricing{
-    padding: 80px 0 0 0;
+    padding: 80px 0;
+    color: white;
   }
   .pricing .main-heading h2{
     margin: 10px 0;
   }
   .pricing .main-heading p{
     margin: 30px 0;
-    color: blueviolet;
+    color: darkblue;
   }
   .pricing .plans{
     display: grid;
