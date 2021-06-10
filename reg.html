@@ -20,12 +20,12 @@
             </a>
             <nav>
                 <i class="fas fa-bars toggle-menu"></i>
-                <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="reg.html" class="active">register</a></li>
-                    <li><a href="pri.html">pricing</a></li>
-                    <li><a href="ser.html">Services</a></li>
-                    <li><a href="co.html">Contact</a></li>
+                <ul id="nav">
+                    <li id="nav1"><a href="index.html">Home</a></li>
+                    <li id="nav2"><a href="reg.html" class="active">Register</a></li>
+                    <li id="nav3"><a href="pri.html" >pricing</a></li>
+                    <li id="nav4"><a href="ser.html">Services</a></li>
+                    <li id="nav5"><a href="co.html" >Contact</a></li>
                     
                 </ul>
                 <div class="form">
@@ -40,8 +40,10 @@
     <div class="container">
         <div class="content">
             <form action="" method="POST">
-                <label for="n" class="info">Name</label>
-               <input class="main-input" type="text" name="name" id="n" placeholder="Your Name" required>
+                <label for="n" class="info">First Name</label>
+               <input class="main-input" type="text" name="fname" id="n" placeholder="Your First Name" required>
+                <label for="n2" class="info">Last Name</label>
+               <input class="main-input" type="text" name="lname" id="n2" placeholder="Your Last Name" required>
                <label for="p" class="info">password</label>
                <input class="main-input" type="password" name="password" id="p" placeholder="Your password" maxlength="8" minlength="8" required>
                <label for="e" class="info">E-mail</label>
@@ -61,5 +63,7 @@
     </div>
 </div>
 <!-- end register -->
+<script src="reg.js"></script>
+
 </body>
 </html>
