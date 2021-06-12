@@ -229,6 +229,9 @@ ul{
   .landing .overlay .text .content{
     max-width: 100%;
   }
+  .landing .bullets{
+    display: none !important;
+  }
 }
   .landing .overlay .text .content h2{
     font-size: 30px;
