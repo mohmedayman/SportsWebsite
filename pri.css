@@ -10,7 +10,7 @@ html{
 body{
     font-family:"open sans",sans-serif ;
     /* background-color: cyan; */
-    background-image: url('images/test3.jpeg');
+    background-image: url('images/owl2.jfif');
     background-size: cover;
 }
 ul{
@@ -159,7 +159,7 @@ ul{
   }
   .pricing .main-heading p{
     margin: 30px 0;
-    color: darkblue;
+    /* color: darkblue; */
   }
   .pricing .plans{
     display: grid;

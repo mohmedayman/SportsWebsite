@@ -85,7 +85,7 @@ ul{
 
   }
   /* end component */
-  #loading{position:fixed;top:50%;left:50%;z-index:1104;}
+  /* #loading{position:fixed;top:50%;left:50%;z-index:1104;} */
  /* start header */
  header{
     /* padding: 20px 0px; */
