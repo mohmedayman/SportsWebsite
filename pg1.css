@@ -359,6 +359,11 @@ bottom: -100%;
     padding: 10px;
     border-radius: 4px;
   }
+  @media (max-width: 767px){
+    .portfolio .image-container img {
+      width: 100vw;
+    }
+  }
 
   /* end portfoli */
   /* start footer */
